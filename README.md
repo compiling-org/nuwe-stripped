@@ -185,4 +185,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ and Rust by [Kapil](https://github.com/vdmo)**
+**Built with ❤️ Bevy and Rust by [Compiling.org](https://github.com/compiling-org)**
