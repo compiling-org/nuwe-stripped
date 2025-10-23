@@ -1,0 +1,26 @@
+/target
+# Rust 
+target/ 
+Cargo.lock 
+ 
+# Build artifacts 
+*.exe 
+*.dll 
+*.so 
+*.dylib 
+*.pdb 
+ 
+# IDE 
+.vscode/ 
+.idea/ 
+ 
+# OS 
+.DS_Store 
+Thumbs.db 
+ 
+# Logs 
+*.log 
+ 
+# Cache 
+.cache/ 
+node_modules/ 
