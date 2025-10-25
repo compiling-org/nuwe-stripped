@@ -137,7 +137,7 @@ impl MidiOutputDevice {
     /// Send MIDI event
     pub fn send_event(&mut self, event: MidiEvent) -> Result<(), Box<dyn std::error::Error>> {
         // Placeholder - would send to actual MIDI device
-        info!("Sending MIDI event: {:?}", event);
+        println!("Sending MIDI event: {:?}", event);
         Ok(())
     }
 

@@ -6,9 +6,10 @@
 use std::collections::HashMap;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
+use rust_fractal_shader_engine::shader_renderer::FractalShaderPlugin;
 
 /// Shader format types
-#[derive(Debug, Clone, Copy, Serialize, Deserialize)]
+#[derive(Debug, Clone, Copy, Serialize, Deserialize, Eq, Hash, PartialEq)]
 pub enum ShaderFormat {
     WGSL,
     GLSL,
@@ -83,7 +84,7 @@ impl Shader {
         let mut shader = Self {
             name: name.to_string(),
             source: source.to_string(),
-            config,
+            config: config.clone(),
             compiled_versions: HashMap::new(),
         };
 

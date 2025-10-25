@@ -74,7 +74,7 @@ impl StreamDiffusionProcessor {
     /// Load diffusion model
     pub fn load_model(&mut self, model_path: &str) -> Result<(), Box<dyn std::error::Error>> {
         // Placeholder - would load actual diffusion model
-        info!("Loading diffusion model from: {}", model_path);
+        println!("Loading diffusion model from: {}", model_path);
         self.model_loaded = true;
         Ok(())
     }
