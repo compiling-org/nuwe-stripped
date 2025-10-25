@@ -5,12 +5,20 @@ pub mod generators;
 pub mod effects;
 pub mod outputs;
 pub mod utilities;
+pub mod motion_capture;
+pub mod fractal_shaders;
+pub mod vst3_plugins;
+pub mod stream_diffusion;
 // pub mod ui; // Temporarily disabled due to egui compatibility issues
 
 pub use generators::*;
 pub use effects::*;
 pub use outputs::*;
 pub use utilities::*;
+pub use motion_capture::*;
+pub use fractal_shaders::*;
+pub use vst3_plugins::*;
+pub use stream_diffusion::*;
 // pub use ui::*; // Temporarily disabled due to egui compatibility issues
 
 #[derive(Clone, Debug, PartialEq)]

@@ -4,6 +4,10 @@
 //! - Real-time audio synthesis with Glicol
 //! - Advanced shader programming with hot-reloading
 //! - GPU compute shader support
+//! - Motion capture and gesture recognition
+//! - VST3 plugin integration
+//! - Fractal shader rendering
+//! - Stream diffusion AI processing
 
 pub mod core;
 pub mod nodes;
@@ -12,6 +16,8 @@ pub mod visual;
 pub mod compute;
 pub mod input;
 pub mod demo;
+pub mod audio_midi_integration;
+pub mod shader_integration;
 
 // Re-export core components
 pub use core::*;
@@ -21,6 +27,8 @@ pub use visual::*;
 pub use compute::*;
 pub use input::*;
 pub use demo::*;
+pub use audio_midi_integration::*;
+pub use shader_integration::*;
 
 use bevy::prelude::*;
 
