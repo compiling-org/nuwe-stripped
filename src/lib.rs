@@ -7,7 +7,8 @@
 //! - Motion capture and gesture recognition
 //! - VST3 plugin integration
 //! - Fractal shader rendering
-//! - Stream diffusion AI processing
+//! - Motion capture integration
+//! - VST3 plugin support
 
 pub mod core;
 pub mod nodes;

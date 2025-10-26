@@ -62,7 +62,7 @@ chrono = { version = "0.4", features = ["serde"] }
 noise = "0.9"
 obj = "0.10"
 gltf = "1.4"
-# Fractal shader engine integration
+# Fractal shader engine integration (AI-enhanced but useful)
 rust-fractal-shader-engine = { path = "../modular-fractal-shader", features = ["bevy"] }
 
 [features]

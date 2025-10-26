@@ -5,10 +5,10 @@ pub mod generators;
 pub mod effects;
 pub mod outputs;
 pub mod utilities;
-pub mod motion_capture;
-pub mod fractal_shaders;
-pub mod vst3_plugins;
-pub mod stream_diffusion;
+pub mod motion_capture; // Keep - AI-enhanced but useful
+pub mod fractal_shaders; // Keep - AI-enhanced but useful
+pub mod vst3_plugins; // Keep - AI features commented out
+// pub mod stream_diffusion; // Remove - pure AI generation
 // pub mod ui; // Temporarily disabled due to egui compatibility issues
 
 pub use generators::*;
@@ -18,7 +18,6 @@ pub use utilities::*;
 pub use motion_capture::*;
 pub use fractal_shaders::*;
 pub use vst3_plugins::*;
-pub use stream_diffusion::*;
 // pub use ui::*; // Temporarily disabled due to egui compatibility issues
 
 #[derive(Clone, Debug, PartialEq)]
